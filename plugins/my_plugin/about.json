@@ -1,0 +1,8 @@
+{
+    "name": "my-plugin",
+    "version": "0.1.0",
+    "authors": ["Your Name", "Any Contributors"],
+    "url": "https://github.com/yourusername/my-plugin",
+    "about": "A plugin that collects email and ID in a modal and securely sends them to an external API.",
+    "license": "MIT"
+  }
