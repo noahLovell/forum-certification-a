@@ -1,0 +1,10 @@
+<DModal @title="Enter Details" @closeModal={{@closeModal}}>
+  <:body>
+    <label>Email: <Input @value={{this.email}} /></label>
+    <label>ID: <Input @value={{this.id}} /></label>
+  </:body>
+  <:footer>
+    <DButton @label="Send" @action={{this.submit}} class="btn-primary" />
+    <DModalCancel @close={{@closeModal}} />
+  </:footer>
+</DModal>

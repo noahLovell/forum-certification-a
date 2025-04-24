@@ -1,0 +1,10 @@
+plugins:
+  my-plugin:
+    my_plugin_api_secret:
+      default: ""
+      type: "text"
+      secret: true
+      client: false
+    my_plugin_api_url:
+      default: "https://your.external/api/endpoint"
+      type: "text"
